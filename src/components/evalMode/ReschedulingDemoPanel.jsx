@@ -155,7 +155,7 @@ export default function ReschedulingDemoPanel({ labs = [], requests = [] }) {
       )}
 
       {/* Side-by-Side Schedules */}
-      <div className="side-by-side-schedules-grid" style={{ marginTop: 20 }}>
+      <div className="side-by-side-schedules-grid rescheduling-comparison" style={{ marginTop: 20 }}>
         {/* Left: Original FCFS Schedule */}
         <div className="card schedule-side-card">
           <div className="schedule-side-header">

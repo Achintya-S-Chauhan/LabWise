@@ -222,7 +222,7 @@ export default function DynamicReschedulingView({
           </div>
 
           {/* Side-by-Side Schedules */}
-          <div className="side-by-side-schedules-grid">
+          <div className="side-by-side-schedules-grid rescheduling-comparison">
             {/* Left: Original Baseline Schedule */}
             <div className="card schedule-side-card">
               <div className="schedule-side-header">
